@@ -1,6 +1,7 @@
 
 
-def hello():
-    print("hello")
+def hello(name):
+    print("hello", name)
 
-hello()
+import sys
+hello(sys.argv[1])
